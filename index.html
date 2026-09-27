@@ -8,7 +8,33 @@
 <body>
     <div class="container">
         <h1 id="title">Singup Form</h1>
-        <div></div>
+        <div class="tabs">
+            <button id="loginTab" onclick="showLogin()">
+                Login
+            </button>
+            <button id="signupTab" class="active " onclick="showSignup()">
+                Signup
+            </button>
+            
+        </div>
+        <div id="loginFileds" class="login-fields">
+            <div class="input-box">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <button class="submit-btn">Login</button>
+        </div>
+        <div id="signupFields" class="signup-fields">
+            <div class="input-box">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input  type="password"
+                    placeholder="Confirm password">
+            </div>
+              <button class="submit-btn">
+                Signup
+            </button>
+        </div>
     </div>
     
 </body>
