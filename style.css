@@ -45,8 +45,12 @@ a.btn{
     border-radius: 10px;
     border: #99abcd 1px solid;
     height: 3em ;
+
+    
+
     /* margin-top: 10px;
     margin-bottom: 10px; */
+
 }
 input{
     width:100%;
@@ -62,5 +66,8 @@ input{
 a{
     color:#99abcd;
     text-decoration: none;
+
+}
+
 }
 
