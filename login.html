@@ -7,8 +7,8 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="title">Singup Form</h1>
-        <div class="tabs">
+        <h1 id="title">Login Form</h1>
+        <div class="tabs" id="tabs">
             <button id="loginTab" onclick="showLogin()">
                 Login
             </button>
@@ -18,21 +18,17 @@
             
         </div>
         <div id="loginFileds" class="login-fields">
-            <div class="input-box">
+            <div class="input-box" id="input-box">
                 <input type="email" placeholder="Email Address">
             </div>
-            <button class="submit-btn">Login</button>
         </div>
         <div id="signupFields" class="signup-fields">
-            <div class="input-box">
-                <input type="email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
+            <div class="input-box" id="input-box">
                 <input  type="password"
-                    placeholder="Confirm password">
+                    placeholder=" password">
             </div>
-              <button class="submit-btn">
-                Signup
+              <button class="submit-btn" id="submit-btn">
+                LogIn
             </button>
         </div>
     </div>
